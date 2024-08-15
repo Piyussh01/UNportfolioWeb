@@ -43,36 +43,34 @@ export default function ProjectsPage() {
         <div className="space-y-4">
           <div>
             <h3 className="text-xl font-medium">
-              Maulana Abul Kalam Azad University Of Technology
+            Arizona State University
             </h3>
-            <p className="text-yellow-500">2020 — 2024</p>
+            <p className="text-yellow-500">2021 — 2025</p>
             <p>
-              Pursued Bachelor of Technology in the field of Computer Science
-              and Engineering
+            PhD in Computer Science
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-medium">St. Stephens School</h3>
-            <p className="text-yellow-500">2018 — 2020</p>
+            <h3 className="text-xl font-medium">New York University</h3>
+            <p className="text-yellow-500">2019 — 2021</p>
             <p>
-              Undertaken the Indian School Certificate (ISC) examination in
-              Standard-12 held by CISCE, in the field of Computer Science and
-              Mathematics
+            MS in Computer Science
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-medium">Delhi Technological University</h3>
+            <p className="text-yellow-500">2014 — 2018</p>
+            <p>
+            B Tech in Information Technology
             </p>
           </div>
         </div>
       </section>
 
-      <a
-        href="/Resume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block px-2 py-2 text-sm font-medium text-white bg-[#ec66524f] rounded-lg mb-6 flex items-center justify-center max-w-[110px] w-full sm:w-auto tracking-tight"
-      >
-        GET RESUME
-      </a>
+      <iframe src="Resume.pdf" width="800" height="600"></iframe>
 
-      <section className="mb-6">
+
+      {/* <section className="mb-6">
         <h1 className="text-3xl font-bold mb-4 tracking-tight">Projects</h1>
         {error && <p className="text-red-500">{error}</p>}
         <div className="space-y-8">
@@ -109,10 +107,10 @@ export default function ProjectsPage() {
             <p className="mt-2 mb-2">Doing the heavy lifting 🚀</p>
           )}
         </div>
-      </section>
+      </section> */}
 
       {/* Skills Section */}
-      <section>
+      {/* <section>
         <h2 className="text-3xl font-bold mb-4">Skills</h2>
         <div className="flex flex-wrap gap-4">
           <span className="custom-skill-pill">react</span>
@@ -125,7 +123,7 @@ export default function ProjectsPage() {
           <span className="custom-skill-pill">javaScript</span>
           <span className="custom-skill-pill">typeScript</span>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -23,7 +23,7 @@ export async function POST(request: Request) {
   }
 
   const response = await fetch(
-    "https://api.github.com/users/somritdasgupta/repos",
+    "https://api.github.com/users/utkarshnath/repos",
     {
       headers: {
         Accept: "application/vnd.github.v3+json",

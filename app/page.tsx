@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { BlogPosts } from "./components/posts";
 import Button from "./components/Button";
-import displayImage from "../public/somritdasgupta.jpg";
+import displayImage from "../public/utkarsh.jpg";
 
 export default function Page() {
   const [featuredProject, setFeaturedProject] = useState<any>(null);
@@ -65,15 +65,19 @@ export default function Page() {
             <p className="text-gray-300 mt-4 mb-4 tracking-tight">
             I'm a 4th Year PhD Student in the School of Computing and Augmented Intelligence, with a specialization in computer vision and deep learning. I work as a research assistant in the Geometric Media Lab, under the expert guidance of Dr. Pavan Turaga. My current research is focused on the efficient and controllable generation of videos and 3D representations. Apart from research, I love hiking and playing squash. 
             </p>
-            <p className="text-gray-300 tracking-tight">
-              Though I hold a bachelor's in computer science & engineering,
-              outside of all technical stuffs, I'm a fan of football, to be
-              specific an avid real madrid fanboy. Also, who doesn't love good
-              jokes and memes?
-            </p>
+            <p className="text-gray-300 mt-4 mb-4 tracking-tight">
+    <strong>Education:</strong>
+    <br/>
+    PhD in Computer Science, Arizona State University, 2021 - 2025 (Expected)
+    <br/>
+    MS in Computer Science, New York University, 2019 - 2021
+    <br/>
+    B Tech in Information Technology, Delhi Technological University, 2014 - 2018
+</p>
+
           </div>
 
-          <div className="w-full mb-4">
+          {/* <div className="w-full mb-4">
             <h2 className="text-xl font-bold mb-4 lg:text-center">
               Featured Project ✦
             </h2>
@@ -112,7 +116,7 @@ export default function Page() {
                 Doing the heavy lifting 🚀
               </p>
             )}
-          </div>
+          </div> */}
         </div>
 
         {/* Content Section */}
@@ -124,12 +128,16 @@ export default function Page() {
             <p className="text-gray-300 mb-4">
             I'm a 4th Year PhD Student in the School of Computing and Augmented Intelligence, with a specialization in computer vision and deep learning. I work as a research assistant in the Geometric Media Lab, under the expert guidance of Dr. Pavan Turaga. My current research is focused on the efficient and controllable generation of videos and 3D representations. Apart from research, I love hiking and playing squash. 
             </p>
-            <p className="text-gray-300">
-              Though I hold a bachelor's in computer science & engineering,
-              outside of all technical stuffs, I'm a fan of football, to be
-              specific an avid real madrid fanboy. Also, who doesn't love good
-              jokes and memes?
-            </p>
+            <p className="text-gray-300 mt-4 mb-4 tracking-tight">
+    <strong>Education:</strong>
+    <br/>
+    PhD in Computer Science, Arizona State University, 2021 - 2025 (Expected)
+    <br/>
+    MS in Computer Science, New York University, 2019 - 2021
+    <br/>
+    B Tech in Information Technology, Delhi Technological University, 2014 - 2018
+</p>
+
           </div>
           <div>
             <h2 className="text-2xl font-bold mb-2 lg:mb-2 flex items-center">

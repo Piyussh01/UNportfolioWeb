@@ -2,11 +2,10 @@ import Link from "next/link";
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 const links = [
-  { href: "/rss", label: "rss" },
-  { href: "/json", label: "json" },
-  { href: "mailto:somritdasgupta@outlook.com", label: "mail" },
-  { href: "https://github.com/somritdasgupta", label: "github" },
-  { href: "https://linkedin.com/in/somritdasgupta", label: "linkedIn" },
+  { href: "https://scholar.google.com/citations?user=x3P-xIMAAAAJ&hl=en", label: "google scholar" },
+  { href: "mailto:unath@asu.edu", label: "mail" },
+  { href: "https://github.com/utkarshnath", label: "github" },
+  { href: "https://www.linkedin.com/in/utkarsh-nath-39793398/", label: "linkedIn" },
 ];
 
 export default function Footer() {
