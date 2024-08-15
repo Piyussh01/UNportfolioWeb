@@ -29,16 +29,16 @@ export async function GET() {
   const rssFeed = `<?xml version="1.0" encoding="UTF-8"?>
   <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-      <title>Somrit Dasgupta</title>
+      <title>Utkarsh Nath</title>
       <link>${baseUrl}</link>
-      <description>Recent Content on Somrit Dasgupta's Blog</description>
+      <description>Recent Content on Utkarsh Nath's Blog</description>
       <language>en-us</language>
       <pubDate>${new Date().toUTCString()}</pubDate>
       <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
       <ttl>1440</ttl>
       <atom:link href="https://somrit.vercel.app/rss" rel="self" type="application/rss+xml" />
-      <copyright>© ${new Date().getFullYear()} Somrit Dasgupta</copyright>
-      <generator>Somrit Dasgupta's RSS Generator</generator>
+      <copyright>© ${new Date().getFullYear()} Utkarsh Nath</copyright>
+      <generator>Utkarsh Nath's RSS Generator</generator>
       ${allBlogs
         .sort(
           (a, b) =>
@@ -97,12 +97,12 @@ export async function GET() {
   // Generate Atom Feed
   const atomFeed = `<?xml version="1.0" encoding="UTF-8"?>
   <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Somrit Dasgupta</title>
+    <title>Utkarsh Nath</title>
     <link href="${baseUrl}/atom" rel="self" />
     <link href="${baseUrl}" />
     <updated>${new Date().toISOString()}</updated>
-    <author><name>Somrit Dasgupta</name></author>
-    <rights>© ${new Date().getFullYear()} Somrit Dasgupta</rights>
+    <author><name>Utkarsh Nath</name></author>
+    <rights>© ${new Date().getFullYear()} Utkarsh Nath</rights>
     ${allBlogs
       .sort(
         (a, b) =>

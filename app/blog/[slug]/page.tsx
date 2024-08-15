@@ -61,7 +61,7 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      siteName: "Somrit Dasgupta",
+      siteName: "Utkarsh Nath",
       type: "article",
       publishedTime,
       url: `${baseUrl}/blog/${post.slug}`,
@@ -112,7 +112,7 @@ export default async function Blog({ params }: { params: { slug: string } }) {
             url: `${baseUrl}/blog/${post.slug}`,
             author: {
               "@type": "Person",
-              name: "Somrit Dasgupta",
+              name: "Utkarsh Nath",
             },
           }),
         }}

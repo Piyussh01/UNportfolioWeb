@@ -29,12 +29,12 @@ export async function GET() {
 
   const jsonFeed = {
     version: "https://jsonfeed.org/version/1.1",
-    title: "Somrit Dasgupta",
+    title: "Utkarsh Nath",
     home_page_url: baseUrl,
     feed_url: `${baseUrl}/json`,
     language: "en-US",
-    description: "Recent Content on Somrit Dasgupta's Blog",
-    copyright: "© 2024 Somrit Dasgupta",
+    description: "Recent Content on Utkarsh Nath's Blog",
+    copyright: "© 2024 Utkarsh Nath",
     updated: new Date().toISOString(),
     items: allBlogs
       .sort(

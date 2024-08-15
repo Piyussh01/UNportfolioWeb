@@ -52,7 +52,7 @@ export default function Page() {
           <div className="relative mb-12 bg-transparent">
             <Image
               src={displayImage}
-              alt="Somrit Dasgupta"
+              alt="Utkarsh Nath"
               width={220}
               height={220}
               className="rounded-full shadow-lg"
@@ -60,15 +60,10 @@ export default function Page() {
           </div>
           <div className="w-full mb-8 lg:hidden">
             <h1 className="text-3xl font-bold mb-8 tracking-tight text-center lg:text-left">
-              hey, I'm Somrit 👋
+              hey, I'm Utkarsh 👋
             </h1>
             <p className="text-gray-300 mt-4 mb-4 tracking-tight">
-              I’m an engineer and likes to work and experiment with modern
-              technologies. I have experience with frontend development as well
-              as integrating the backend solutions. I’m also experimenting on
-              how generative AI can simplify development tasks, especially with
-              RAG (Retrieval-Augmented Generation) and till now it seems pretty
-              promising.
+            I'm a 4th Year PhD Student in the School of Computing and Augmented Intelligence, with a specialization in computer vision and deep learning. I work as a research assistant in the Geometric Media Lab, under the expert guidance of Dr. Pavan Turaga. My current research is focused on the efficient and controllable generation of videos and 3D representations. Apart from research, I love hiking and playing squash. 
             </p>
             <p className="text-gray-300 tracking-tight">
               Though I hold a bachelor's in computer science & engineering,
@@ -124,15 +119,10 @@ export default function Page() {
         <div className="flex-1 lg:w-4/5">
           <div className="w-full mb-8 hidden lg:block">
             <h1 className="text-3xl font-bold mb-4 tracking-tight text-center lg:text-left">
-              hey, I'm Somrit 👋
+              hey, I'm Utkarsh 👋
             </h1>
             <p className="text-gray-300 mb-4">
-              I’m an engineer and likes to work and experiment with modern
-              technologies. I have experience with frontend development as well
-              as integrating the backend solutions. I’m also experimenting on
-              how generative AI can simplify development tasks, especially with
-              RAG (Retrieval-Augmented Generation) and till now it seems pretty
-              promising.
+            I'm a 4th Year PhD Student in the School of Computing and Augmented Intelligence, with a specialization in computer vision and deep learning. I work as a research assistant in the Geometric Media Lab, under the expert guidance of Dr. Pavan Turaga. My current research is focused on the efficient and controllable generation of videos and 3D representations. Apart from research, I love hiking and playing squash. 
             </p>
             <p className="text-gray-300">
               Though I hold a bachelor's in computer science & engineering,

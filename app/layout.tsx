@@ -12,34 +12,34 @@ import { SandpackCSS } from "./blog/[slug]/sandpack";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Somrit Dasgupta / Developer x Extraordinaire",
-    template: "%s | Somrit Dasgupta",
+    default: "Utkarsh Nath / Developer x PHD Student",
+    template: "%s | Utkarsh Nath",
   },
-  description: "hey, I'm Somrit | Developer x Extraordinaire",
+  description: "hey, I'm Utkarsh | Developer x PHD Student",
   openGraph: {
-    title: "Somrit Dasgupta",
-    description: "hey, I'm Somrit | Developer x Extraordinaire",
+    title: "Utkarsh Nath",
+    description: "hey, I'm Utkarsh | Developer x PHD Student",
     url: baseUrl,
-    siteName: "Somrit Dasgupta",
+    siteName: "Utkarsh Nath",
     locale: "en_US",
     type: "website",
     images: [
       {
         url: `${baseUrl}/api/og?title=${encodeURIComponent(
-          "hey, I'm Somrit 👋"
+          "Hi, I'm Utkarsh 👋"
         )}`,
         width: 2400,
         height: 1260,
-        alt: "Somrit Dasgupta",
+        alt: "Utkarsh Nath",
       },
     ],
   },
   twitter: {
-    title: "Somrit Dasgupta",
+    title: "Utkarsh Nath",
     card: "summary_large_image",
-    description: "hey, I'm Somrit | Developer x Extraordinaire",
+    description: "hey, I'm Utkarsh | Developer x PHD Student",
     images: [
-      `${baseUrl}/api/og?title=${encodeURIComponent("hey, I'm Somrit 👋")}`,
+      `${baseUrl}/api/og?title=${encodeURIComponent("hi, I'm Utarsh 👋")}`,
     ],
     creator: "@kitsomrit",
   },

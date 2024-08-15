@@ -28,7 +28,7 @@ export default function Footer() {
         ))}
       </ul>
       <p className="mt-4 text-neutral-600 dark:text-neutral-400">
-        © {new Date().getFullYear()} Somrit Dasgupta
+        © {new Date().getFullYear()} Utkarsh Nath
       </p>
     </footer>
   );

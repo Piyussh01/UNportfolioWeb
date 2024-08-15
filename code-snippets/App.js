@@ -8,6 +8,6 @@ export default function Home({ data }) {
 
 export function getServerSideProps() {
   return {
-    props: { data: "it's Somrit" },
+    props: { data: "it's Utkarsh" },
   };
 }

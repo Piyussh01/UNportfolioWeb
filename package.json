@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "predev": "figlet Somrit-WebCV",
+    "predev": "figlet Utkarsh-WebCV",
     "dev": "rimraf .next && next dev",
     "build": "next build",
     "start": "next start"
