@@ -29,7 +29,6 @@
     ".next/types/**/*.ts",
     "app/code-snippets/index.js",
     "app/code-snippets/Ang.js",
-    "app/api/code-snippets/route.ts"
   ],
   "exclude": ["node_modules"]
 }
