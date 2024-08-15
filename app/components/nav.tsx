@@ -9,7 +9,7 @@ import { usePathname } from 'next/navigation'; // Use usePathname instead
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: 'Home',
   },
   '/publications': {
     name: 'Publications',
@@ -18,7 +18,7 @@ const navItems = {
     name: 'Projects',
   },
   '/projects': {
-    name: 'About me',
+    name: 'Resume',
   }
 }
 

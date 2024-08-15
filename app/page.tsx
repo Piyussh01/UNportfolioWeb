@@ -58,9 +58,10 @@ export default function Page() {
               className="rounded-full shadow-lg"
             />
           </div>
+          <h2 className="text-lg font-semibold">Utkarsh Nath</h2>
           <div className="w-full mb-8 lg:hidden">
             <h1 className="text-3xl font-bold mb-8 tracking-tight text-center lg:text-left">
-              hey, I'm Utkarsh 👋
+              Hey, I'm Utkarsh 👋
             </h1>
             <p className="text-gray-300 mt-4 mb-4 tracking-tight">
             I'm a 4th Year PhD Student in the School of Computing and Augmented Intelligence, with a specialization in computer vision and deep learning. I work as a research assistant in the Geometric Media Lab, under the expert guidance of Dr. Pavan Turaga. My current research is focused on the efficient and controllable generation of videos and 3D representations. Apart from research, I love hiking and playing squash. 
@@ -76,7 +77,7 @@ export default function Page() {
       <p className="text-sm">
         Arizona State University
       </p>
-      <p className="text-yellow-500 text-sm">2021 — 2025</p>
+      <p className="text-yellow-500 text-sm">2021 — 2025 (Expected)</p>
     </div>
     
     <h3 className="text-lg font-medium">MS in Computer Science</h3>
@@ -146,7 +147,7 @@ export default function Page() {
         <div className="flex-1 lg:w-4/5">
           <div className="w-full mb-8 hidden lg:block">
             <h1 className="text-3xl font-bold mb-4 tracking-tight text-center lg:text-left">
-              hey, I'm Utkarsh 👋
+              Hey, I'm Utkarsh 👋
             </h1>
             <p className="text-gray-300 mb-4">
             I'm a 4th Year PhD Student in the School of Computing and Augmented Intelligence, with a specialization in computer vision and deep learning. I work as a research assistant in the Geometric Media Lab, under the expert guidance of Dr. Pavan Turaga. My current research is focused on the efficient and controllable generation of videos and 3D representations. Apart from research, I love hiking and playing squash. 
