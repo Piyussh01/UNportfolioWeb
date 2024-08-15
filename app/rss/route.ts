@@ -1,4 +1,3 @@
-import { getBlogPosts } from "app/blog/getBlogPosts";
 import { baseUrl } from "app/sitemap";
 
 interface Metadata {
@@ -23,7 +22,6 @@ interface Post {
 }
 
 export async function GET() {
-  let allBlogs: Post[] = await getBlogPosts();
 
   // Generate RSS Feed
   const rssFeed = `<?xml version="1.0" encoding="UTF-8"?>

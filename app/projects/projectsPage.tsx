@@ -38,34 +38,7 @@ export default function ProjectsPage() {
 
   return (
     <div className="text-white">
-      <section className="mb-6">
-        <h1 className="text-3xl font-bold mb-4 tracking-tight">Education</h1>
-        <div className="space-y-4">
-          <div>
-            <h3 className="text-xl font-medium">
-            Arizona State University
-            </h3>
-            <p className="text-yellow-500">2021 — 2025</p>
-            <p>
-            PhD in Computer Science
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-medium">New York University</h3>
-            <p className="text-yellow-500">2019 — 2021</p>
-            <p>
-            MS in Computer Science
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-medium">Delhi Technological University</h3>
-            <p className="text-yellow-500">2014 — 2018</p>
-            <p>
-            B Tech in Information Technology
-            </p>
-          </div>
-        </div>
-      </section>
+      
 
       <iframe src="Resume.pdf" width="800" height="600"></iframe>
 

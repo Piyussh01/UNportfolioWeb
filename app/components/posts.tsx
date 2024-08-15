@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
-import { formatDate } from "../blog/utils";
+import { formatDate } from "../publications/utils";
 import Tags from "./tags";
 
 interface BlogPost {

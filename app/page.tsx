@@ -65,15 +65,38 @@ export default function Page() {
             <p className="text-gray-300 mt-4 mb-4 tracking-tight">
             I'm a 4th Year PhD Student in the School of Computing and Augmented Intelligence, with a specialization in computer vision and deep learning. I work as a research assistant in the Geometric Media Lab, under the expert guidance of Dr. Pavan Turaga. My current research is focused on the efficient and controllable generation of videos and 3D representations. Apart from research, I love hiking and playing squash. 
             </p>
-            <p className="text-gray-300 mt-4 mb-4 tracking-tight">
-    <strong>Education:</strong>
-    <br/>
-    PhD in Computer Science, Arizona State University, 2021 - 2025 (Expected)
-    <br/>
-    MS in Computer Science, New York University, 2019 - 2021
-    <br/>
-    B Tech in Information Technology, Delhi Technological University, 2014 - 2018
-</p>
+            <section className="mb-4">
+  <h1 className="text-xl font mb-3">Education</h1>
+  <div className="space-y-3">
+  <h3 className="text-lg font-medium">
+      PhD in Computer Science
+    </h3>
+    <div className="flex justify-between items-center">
+    
+      <p className="text-sm">
+        Arizona State University
+      </p>
+      <p className="text-yellow-500 text-sm">2021 — 2025</p>
+    </div>
+    
+    <h3 className="text-lg font-medium">MS in Computer Science</h3>
+    <div className="flex justify-between items-center">
+      <p className="text-sm">
+        New York University
+      </p>
+      <p className="text-yellow-500 text-sm">2019 — 2021</p>
+    </div>
+    
+    <h3 className="text-lg font-medium">B Tech in Information Technology</h3>
+    <div className="flex justify-between items-center">
+      <p className="text-sm">
+        Delhi Technological University
+      </p>
+      <p className="text-yellow-500 text-sm">2014 — 2018</p>
+    </div>
+  </div>
+</section>
+
 
           </div>
 
@@ -128,27 +151,42 @@ export default function Page() {
             <p className="text-gray-300 mb-4">
             I'm a 4th Year PhD Student in the School of Computing and Augmented Intelligence, with a specialization in computer vision and deep learning. I work as a research assistant in the Geometric Media Lab, under the expert guidance of Dr. Pavan Turaga. My current research is focused on the efficient and controllable generation of videos and 3D representations. Apart from research, I love hiking and playing squash. 
             </p>
-            <p className="text-gray-300 mt-4 mb-4 tracking-tight">
-    <strong>Education:</strong>
-    <br/>
-    PhD in Computer Science, Arizona State University, 2021 - 2025 (Expected)
-    <br/>
-    MS in Computer Science, New York University, 2019 - 2021
-    <br/>
-    B Tech in Information Technology, Delhi Technological University, 2014 - 2018
-</p>
+            
 
           </div>
-          <div>
-            <h2 className="text-2xl font-bold mb-2 lg:mb-2 flex items-center">
-              Recent Posts
-              <ArrowTrendingUpIcon className="w-6 h-6 ml-2 text-neutral-500" />
-            </h2>
-            <BlogPosts limit={3} showTags={false} />
-            <div className="mt-6">
-              <Button href="/blog" text="View All Posts" icon="right" />
-            </div>
-          </div>
+          <section className="mb-4">
+  <h1 className="text-xl font mb-3">Education</h1>
+  <div className="space-y-3">
+  <h3 className="text-lg font-medium">
+      PhD in Computer Science
+    </h3>
+    <div className="flex justify-between items-center">
+    
+      <p className="text-sm">
+        Arizona State University
+      </p>
+      <p className="text-yellow-500 text-sm">2021 — 2025</p>
+    </div>
+    
+    <h3 className="text-lg font-medium">MS in Computer Science</h3>
+    <div className="flex justify-between items-center">
+      <p className="text-sm">
+        New York University
+      </p>
+      <p className="text-yellow-500 text-sm">2019 — 2021</p>
+    </div>
+    
+    <h3 className="text-lg font-medium">B Tech in Information Technology</h3>
+    <div className="flex justify-between items-center">
+      <p className="text-sm">
+        Delhi Technological University
+      </p>
+      <p className="text-yellow-500 text-sm">2014 — 2018</p>
+    </div>
+  </div>
+</section>
+
+
         </div>
       </div>
     </section>

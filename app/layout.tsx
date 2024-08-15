@@ -7,7 +7,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { baseUrl } from "./sitemap";
-import { SandpackCSS } from "./blog/[slug]/sandpack";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -85,7 +84,7 @@ export default function RootLayout({
         />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
         <link rel="apple-touch-icon" href="/favicon.png" />
-        <SandpackCSS />
+        
         <script
           dangerouslySetInnerHTML={{
             __html: `
