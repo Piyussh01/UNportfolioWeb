@@ -66,7 +66,7 @@ export default function Page() {
             <p className="text-gray-300 mt-4 mb-4 tracking-tight">
             I'm a 4th Year PhD Student in the School of Computing and Augmented Intelligence, with a specialization in computer vision and deep learning. I work as a research assistant in the Geometric Media Lab, under the expert guidance of Dr. Pavan Turaga. My current research is focused on the efficient and controllable generation of videos and 3D representations. Apart from research, I love hiking and playing squash. 
             </p>
-            <section className="mb-4">
+            {/* <section className="mb-4">
   <h1 className="text-xl font mb-3">Education</h1>
   <div className="space-y-3">
   <h3 className="text-lg font-medium">
@@ -96,7 +96,7 @@ export default function Page() {
       <p className="text-yellow-500 text-sm">2014 — 2018</p>
     </div>
   </div>
-</section>
+</section> */}
 
 
           </div>
