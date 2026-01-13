@@ -166,7 +166,8 @@
         .pub-links a {
             color: var(--primary-color);
             text-decoration: none;
-            margin-right: 12px;
+            margin: 0;
+            padding: 0 4px;
         }
 
         .pub-links a:hover {
@@ -217,29 +218,41 @@
             margin: 0 0 8px 0;
             font-size: 1.1rem;
             color: var(--text-color);
+        }
+
+        .header-row {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 12px;
         }
-        
-        .job-title {
-            flex-grow: 1;
+
+        .company {
+            color: var(--text-color);
+            font-weight: 700;
+            font-size: 1.05rem;
         }
-        
-        .job-duration {
-            color: #999;
-            font-weight: normal;
+
+        .title {
+            font-weight: 600;
             font-size: 0.95rem;
-            white-space: nowrap;
-            margin-left: 20px;
+            margin-top: 6px;
+            color: var(--light-text);
         }
-        
+
+        .job-duration {
+            color: var(--light-text);
+            font-weight: normal;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+
         .patent-badge {
             color: #0550ae;
             font-size: 0.85rem;
             font-weight: bold;
             white-space: nowrap;
-            margin-left: 10px;
+            margin-left: 8px;
         }
 
         .research-item ul,
@@ -256,13 +269,54 @@
 
         /* --- Mobile Responsive --- */
         @media (max-width: 600px) {
+            .container {
+                padding: 20px 16px;
+            }
+
             header {
                 flex-direction: column;
                 text-align: center;
+                gap: 20px;
             }
+
+            .profile-pic {
+                width: 160px;
+                height: 160px;
+            }
+
+            .bio h1 {
+                font-size: 1.6rem;
+            }
+
+            .bio p {
+                font-size: 0.95rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            .header-row {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .links {
+                justify-content: center;
+            }
+
+            .links a {
+                padding: 8px 10px;
+            }
+
+            #news ul {
+                max-height: 150px;
+            }
+
             .publication-row {
                 flex-direction: column;
             }
+
             .pub-thumbnail {
                 width: 100%;
                 height: 150px;
@@ -279,8 +333,9 @@
         <div class="bio">
             <h1>Utkarsh Nath</h1>
             <p>
-                I am a PhD Candidate in Computer Science at <b>Arizona State University</b>, advised by <a href="https://pavanturaga.com/" target="_blank">Dr. Pavan Turaga</a>. 
-                My research spans <b>Computer Vision</b> and <b>Generative AI</b>, with recent focus on 3D asset generation, text-to-3D systems, and retrieval-augmented generation (RAG) for enterprise applications.
+                I am a PhD Candidate in the School of Computing and Augmented Intelligence, at Arizona State University. I work as a research assistant in the Geometric Media Lab, under the expert guidance of <a href="https://pavanturaga.com/" target="_blank">Dr. Pavan Turaga</a>.
+                <br/>My research spans Computer Vision and Generative AI, with recent focus on 3D asset generation, text-to-3D systems, and retrieval-augmented generation (RAG) for enterprise applications.
+                <br/>Let's connect! <a href="mailto:unath@asu.edu" aria-label="Email" title="Email">unath@asu.edu</a>
             </p>
             <div class="links">
                 <a href="mailto:unath@asu.edu" aria-label="Email" title="Email"><i class="fa-solid fa-envelope icon" aria-hidden="true"></i></a>
@@ -308,7 +363,11 @@
         <h2>Recent Industrial Research Experience</h2>
         
         <div class="research-item">
-            <h3><span class="job-title">LinkedIn – PhD GenAI Research Intern <span class="patent-badge" title="Pending Patent">⚙️ Patent Pending</span></span><span class="job-duration">(May 2025 - Aug 2025)</span></h3>
+            <div class="header-row">
+                <div class="company">LinkedIn</div>
+                <div class="job-duration">(May 2025 - Aug 2025)</div>
+            </div>
+            <div class="title">PhD GenAI Research Intern <span class="patent-badge" title="Pending Patent">⚙️ Patent Pending</span></div>
             <ul>
                 <li>Proposed <b>Agentic Memory RAG (AMRAG)</b>: a domain-aware RAG framework combining semantic and relational memory within a schema-bounded planning paradigm for global query resolution.</li>
                 <li>Designed a dual-memory indexing strategy using embedding-based semantic memory and relational storage, eliminating expensive LLM calls at ingestion time.</li>
@@ -319,11 +378,11 @@
     </section>
 
     <section id="publications">
-        <h2>Publications</h2>
+        <h2>Selected Publications</h2>
 
         <div class="publication-row">
             <div class="pub-thumbnail">
-                <img src="websiteImages/decomp_3_macaw.mp4" alt="DecompDreamer">
+                <img src="websiteImages/decomp_3_macaw_slow.gif" alt="DecompDreamer">
             </div>
             <div class="pub-info">
                 <span class="pub-title">DecompDreamer: Advancing Structured 3D Asset Generation with Multi-Object Decomposition and Gaussian Splatting</span>
@@ -332,7 +391,8 @@
                 </div>
                 <div class="pub-venue">In Submission ICLR 2026</div>
                 <div class="pub-links">
-                    <a href="https://decompdreamer3d.github.io" target="_blank">Project</a>
+                            <a href="https://arxiv.org/html/2503.11981v1" target="_blank">Paper</a> / 
+                            <a href="https://decompdreamer3d.github.io" target="_blank">Project</a>
                 </div>
             </div>
         </div>
@@ -348,7 +408,8 @@
                 </div>
                 <div class="pub-venue">WACV 2025</div>
                 <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2408.05938v1" target="_blank">Paper</a> / <a href="https://moment-3d.github.io" target="_blank">Project</a>
+                    <a href="https://arxiv.org/abs/2408.05938v1" target="_blank">Paper</a> / 
+                    <a href="https://moment-3d.github.io" target="_blank">Project</a>
                 </div>
             </div>
         </div>
@@ -424,7 +485,11 @@
         <h2>Work Experience</h2>
         
         <div class="work-item">
-            <h3><span class="job-title">Samsung Research – Software Engineer</span><span class="job-duration">(July 2018 - July 2019)</span></h3>
+            <div class="header-row">
+                <div class="company">Samsung Research</div>
+                <div class="job-duration">(July 2018 - July 2019)</div>
+            </div>
+            <div class="title">Software Engineer</div>
             <ul>
                 <li>Led a team of three to build a mobile application to interact and control internal functioning of Samsung Smart TV through wireless (wifi-direct) and wired connection.</li>
                 <li>Features of application involved controlling factory settings, fetching serial logs, running internal tests and fixing them.</li>
@@ -432,7 +497,11 @@
         </div>
 
         <div class="work-item">
-            <h3><span class="job-title">Coding Blocks – Algorithm Instructor</span><span class="job-duration">(Aug 2017 - July 2019)</span></h3>
+            <div class="header-row">
+                <div class="company">Coding Blocks</div>
+                <div class="job-duration">(Aug 2017 - July 2019)</div>
+            </div>
+            <div class="title">Algorithm Instructor</div>
             <ul>
                 <li>Conducted Launchpad course for C++: Data Structures, Algorithms, Object Oriented Programming.</li>
                 <li>Taught batch of 60 students at a time: includes preparing assignments, quizzes, doubt-solving sessions.</li>
@@ -440,7 +509,11 @@
         </div>
 
         <div class="work-item">
-            <h3><span class="job-title">Google Summer of Code – Student Developer</span><span class="job-duration">(May 2017 - Aug 2017)</span></h3>
+            <div class="header-row">
+                <div class="company">Google Summer of Code / FOSSASIA</div>
+                <div class="job-duration">(May 2017 - Aug 2017)</div>
+            </div>
+            <div class="title">Student Developer</div>
             <ul>
                 <li>Worked on Open-Event project, which aims to develop automated tool for creation of app and website for conferences. Part of the team responsible for frontend development and designing of the tool.</li>
                 <li>Used Semantic UI components to build responsive UI, EmberJS in back-end and GitHub for version control.</li>
@@ -452,17 +525,29 @@
         <h2>Education</h2>
         
         <div class="work-item">
-            Doctor of Philosophy in Computer Science <span style="color: #999; font-weight: normal; font-size: 0.95rem;">Arizona State University (Expected May 2026)</span>
+            <div class="header-row">
+                <div class="company">Arizona State University</div>
+                <div class="job-duration">(Expected May 2026)</div>
+            </div>
+            <div class="title">Doctor of Philosophy, Computer Science</div>
             <!--div style="font-size: 0.95rem; color: var(--light-text); margin-top: 4px;">GPA: 4.0</div-->
         </div>
-
+        <br/>
         <div class="work-item">
-            Master of Science in Computer Science <span style="color: #999; font-weight: normal; font-size: 0.95rem;">New York University (May 2021)</span>
+            <div class="header-row">
+                <div class="company">New York University</div>
+                <div class="job-duration">(May 2021)</div>
+            </div>
+            <div class="title">Master of Science, Computer Science</div>
             <!--div style="font-size: 0.95rem; color: var(--light-text); margin-top: 4px;">GPA: 3.96</div-->
         </div>
-
+        <br/>
         <div class="work-item">
-            Bachelor of Technology in Information Technology <span style="color: #999; font-weight: normal; font-size: 0.95rem;">Delhi Technological University (May 2018)</span>
+            <div class="header-row">
+                <div class="company">Delhi Technological University</div>
+                <div class="job-duration">(May 2018)</div>
+            </div>
+            <div class="title">Bachelor of Technology, Information Technology</div>
             <!--div style="font-size: 0.95rem; color: var(--light-text); margin-top: 4px;">CGPA: 7.89</div-->
         </div>
     </section>
